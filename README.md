@@ -20,9 +20,35 @@ The Caesar Cipher is a substitution cipher where each letter in the plaintext is
 
 ## ▶️ How to Run
 
-> Requires: Python 3.x
+> Requires: Python Python 3.7.9 or higher
 
 Clone the repository and run the script:
 
 ```bash
 python caesar_cipher.py
+
+Type 'encode' to encrypt, 'decode' to decrypt, or 'stop' to exit:
+encode
+Type your message:
+hello
+Type the shift number:
+4
+The encoded text is: lipps
+
+caesar_cipher/
+├── caesar_cipher.py
+└── README.md
+└── logo.py
+└── alphabet.py
+====================================================================================================================
+🎓 Educational Purpose
+This project was developed for learning purposes as part of Python programming practice. You can expand it to support:
+
+Uppercase characters
+
+Non-alphabet characters
+
+File input/output
+
+GUI interface with Tkinter or PyQt
+
